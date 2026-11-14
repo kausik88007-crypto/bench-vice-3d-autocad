@@ -1,0 +1,49 @@
+# Bench Vice - 3D Assembly in AutoCAD (Major Project 2)
+
+## Description
+A 3D model of a bench vice made of 8 parts, with orthographic views, an assembled isometric view, an exploded view and a bill of materials.
+
+## Sheets
+| Sheet | Content | Scale |
+|-------|---------|-------|
+| 1 | Front, top and right side views (third angle) with dimensions, hidden lines and centre lines | 1:2 |
+| 2 | Assembled isometric view with item balloons and bill of materials | 1:2 |
+| 3 | Exploded isometric view with item balloons and part list | 1:2 |
+
+The DXF/DWG also contains the 3D assembly and the 3D exploded model (one layer per part), and the bill of materials as a table.
+
+## Parts
+| Item | Part | Qty |
+|------|------|-----|
+| 1 | Base plate | 1 |
+| 2 | Fixed jaw | 1 |
+| 3 | Movable jaw | 1 |
+| 4 | Jaw plate | 2 |
+| 5 | Lead screw | 1 |
+| 6 | Screw head + collar | 1 |
+| 7 | Handle bar | 1 |
+| 8 | Handle knob | 2 |
+
+## Tools Used
+- AutoCAD [version, e.g. 2024]
+
+## Layers
+01-BASE, 02-FIXED-JAW, 03-MOVABLE-JAW, 04-JAW-PLATE, 05-LEAD-SCREW, 06-SCREW-HEAD, 07-HANDLE-BAR, 08-HANDLE-KNOB (3D parts), plus Outline, Hidden, Center, Dimension, Text, Titleblock (2D drawing).
+
+## Commands Used
+BOX, CYLINDER, SPHERE, MOVE, 3DMOVE, UNION, LINE, CIRCLE, OFFSET, TRIM, DIMLINEAR, DIMDIAMETER, LAYER, TABLE, VIEWBASE, 3DORBIT, PLOT
+
+## Files
+| File | Description |
+|------|-------------|
+| `bench-vice.dwg` | Main AutoCAD drawing (3D models and 2D views) |
+| `bench-vice.dxf` | DXF version (opens in any CAD software) |
+| `bench-vice.pdf` | Plotted sheets, 3 pages (A3) |
+| `screenshots/` | One PNG per sheet |
+
+## How to Open
+Open the `.dwg` in AutoCAD, or open the `.dxf` in any CAD viewer. For the 3D models, use the SE Isometric view and the Shaded visual style (VSCURRENT).
+
+## Author
+Name : KAUSIK T 
+Course : AUTOCAD 
